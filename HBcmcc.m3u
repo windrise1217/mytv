@@ -219,8 +219,6 @@ http://111.48.34.237/PLTV/88888888/224/3221229846/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方",襄阳经济生活-FHD
 http://111.48.34.237/PLTV/88888888/224/3221229848/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方",襄阳公共-FHD
-http://111.48.34.237/PLTV/88888888/224/3221229850/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方",咸宁综合-HD
 http://111.48.34.237/PLTV/88888888/224/3221229876/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="数字频道",欢笑剧场4K-UHD
 http://111.48.34.237/PLTV/88888888/224/3221230500/1.m3u8
@@ -248,25 +246,6 @@ http://111.48.34.237/PLTV/88888888/224/3221230432/1.m3u8
 http://111.48.34.237/PLTV/88888888/224/3221230496/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="数字频道",文物宝库-FHD
 http://111.48.34.237/PLTV/88888888/224/3221230547/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="数字频道",武术世界-FHD
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="数字频道",武术世界-FHD    
 http://111.48.34.237/PLTV/88888888/224/3221230549/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="百事通",百视通-FHD
-http://111.48.34.237/PLTV/88888888/224/3221229968/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="百事通",百视通-FHD
-http://111.48.34.237/PLTV/88888888/224/3221230031/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="百事通",百视通-FHD
-http://111.48.34.237/PLTV/88888888/224/3221230052/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="百事通",百视通-FHD
-http://111.48.34.237/PLTV/88888888/224/3221230056/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="百事通",百视通-FHD
-http://111.48.34.237/PLTV/88888888/224/3221230058/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="百事通",百视通-FHD
-http://111.48.34.237/PLTV/88888888/224/3221230061/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="百事通",百视通-FHD
-http://111.48.34.237/PLTV/88888888/224/3221230063/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="百事通",百视通-FHD
-http://111.48.34.237/PLTV/88888888/224/3221230065/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="百事通",百视通-FHD
-http://111.48.34.237/PLTV/88888888/224/3221230067/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="百事通",百视通-FHD
-http://111.48.34.237/PLTV/88888888/224/3221230069/1.m3u8
+
