@@ -119,19 +119,21 @@ http://[2409:8087:1a0a:df::4035]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a0a:df::402e]:80/wh7f454c46tw2754383805_1220934996/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225655/index.m3u8
 
 #湖北频道
-#EXTINF:-1,湖北公共新闻
-http://v4d.xiepeiru.top:1123/iptv/gj/HuBeiGongGongXinWen
-#EXTINF:-1,湖北经视
-http://v4d.xiepeiru.top:1123/iptv/gj/HuBeiJingShi
-#EXTINF:-1,湖北综合
+#EXTM3U
+#EXTINF:-1 tvg-name="湖北综合" tvg-logo="https://live.fanmingming.cn/tv/湖北综合.png" group-title="湖北频道",湖北综合
 http://v4d.xiepeiru.top:1123/iptv/gj/HuBeiZongHe
-#EXTINF:-1,湖北垄上
+#EXTINF:-1 tvg-name="湖北公共新闻" tvg-logo="https://live.fanmingming.cn/tv/湖北公共新闻.png" group-title="湖北频道",湖北公共新闻
+http://v4d.xiepeiru.top:1123/iptv/gj/HuBeiGongGongXinWen
+#EXTINF:-1 tvg-name="湖北经视" tvg-logo="https://live.fanmingming.cn/tv/湖北经视.png" group-title="湖北频道",湖北经视
+http://v4d.xiepeiru.top:1123/iptv/gj/HuBeiJingShi
+
+#EXTINF:-1 tvg-name="湖北垄上" tvg-logo="https://live.fanmingming.cn/tv/湖北垄上.png" group-title="湖北频道",湖北垄上
 http://v4d.xiepeiru.top:1123/iptv/gj/HuBeiLongShang
-#EXTINF:-1,湖北影视
+#EXTINF:-1 tvg-name="湖北影视" tvg-logo="https://live.fanmingming.cn/tv/湖北影视.png" group-title="湖北频道",湖北影视
 http://v4d.xiepeiru.top:1123/iptv/gj/HuBeiYingShi
-#EXTINF:-1,湖北生活
+#EXTINF:-1 tvg-name="湖北生活" tvg-logo="https://live.fanmingming.cn/tv/湖北生活.png" group-title="湖北频道",湖北生活
 http://v4d.xiepeiru.top:1123/iptv/gj/HuBeiShengHuo
-#EXTINF:-1,湖北教育
+#EXTINF:-1 tvg-name="湖北教育" tvg-logo="https://live.fanmingming.cn/tv/湖北教育.png" group-title="湖北频道",湖北教育
 http://v4d.xiepeiru.top:1123/iptv/gj/HuBeiJiangYu
 
 #其他频道
