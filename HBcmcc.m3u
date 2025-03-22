@@ -105,9 +105,9 @@ rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000519
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000517
 #EXTINF:-1,tvg-id="襄阳综合" tvg-name="襄阳综合" tvg-logo="https://epg.v1.mk/logo/襄阳综合.png" group-title="地方频道",襄阳综合
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000450
-#EXTINF:-1,tvg-id="襄阳综合" tvg-name="襄阳综合" tvg-logo="https://epg.v1.mk/logo/襄阳综合.png" group-title="地方频道",襄阳经济生活
+#EXTINF:-1,tvg-id="襄阳经济生活" tvg-name="襄阳经济生活" tvg-logo="https://epg.v1.mk/logo/襄阳综合.png" group-title="地方频道",襄阳经济生活
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000451
-#EXTINF:-1,tvg-id="襄阳综合" tvg-name="襄阳综合" tvg-logo="https://epg.v1.mk/logo/襄阳综合.png" group-title="地方频道",襄阳公共
+#EXTINF:-1,tvg-id="襄阳公共" tvg-name="襄阳公共" tvg-logo="https://epg.v1.mk/logo/襄阳综合.png" group-title="地方频道",襄阳公共
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000452
 #EXTINF:-1,tvg-id="武汉新闻综合" tvg-name="武汉新闻综合" tvg-logo="https://epg.v1.mk/logo/武汉新闻综合.png" group-title="地方频道",武汉新闻综合
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000429
