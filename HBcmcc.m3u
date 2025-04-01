@@ -908,31 +908,6 @@ http://39.134.67.148/PLTV/88888888/224/3221225500/1.m3u8
 http://39.134.67.148/ottrrs.hl.chinamobile.com/hlj/yd/0/3221226406/.m3u8
 #EXTINF:-1 tvg-id="45" tvg-name="河北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="卫视",河北卫视[1920*1080]
 http://39.134.67.148/PLTV/88888888/224/3221225961/1.m3u8
-
-#EXTINF:-1 tvg-id="46" tvg-name="黑龙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/heilongjiang.png" group-title="卫视",黑龙江卫视[785*576]
-http://39.134.67.148/ottrrs.hl.chinamobile.com/hlj/yd/0/3221226421/.m3u8
-#EXTINF:-1 tvg-id="46" tvg-name="黑龙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/heilongjiang.png" group-title="卫视",黑龙江卫视[785*576]
-http://39.134.67.148/PLTV/88888888/224/3221226006/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",黑龙江文体[1920*1080]
-http://39.134.67.148/ottrrs.hl.chinamobile.com/hlj/yd/0/3221226239/.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",黑龙江文体[1920*1080]
-http://39.134.67.148/PLTV/88888888/224/3221225965/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",黑龙江文体[768*576]
-http://39.134.67.148/ottrrs.hl.chinamobile.com/hlj/yd/0/3221226424/.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",黑龙江文体[768*576]
-http://39.134.67.148/PLTV/88888888/224/3221226012/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",黑龙江新闻法治[1920*1080]
-http://39.134.67.148/ottrrs.hl.chinamobile.com/hlj/yd/0/3221226330/.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",黑龙江新闻法治[1920*1080]
-http://39.134.67.148/PLTV/88888888/224/3221225967/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",黑龙江新闻法治[768*576]
-http://39.134.67.148/PLTV/88888888/224/3221225992/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",黑龙江新闻法治[768*576]
-http://39.134.67.148/ottrrs.hl.chinamobile.com/hlj/yd/0/3221226368/.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",黑龙江影视[768*576]
-http://39.134.67.148/ottrrs.hl.chinamobile.com/hlj/yd/0/3221226365/.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",黑龙江影视[768*576]
-http://39.134.67.148/PLTV/88888888/224/3221225971/1.m3u8
 #EXTINF:-1 tvg-id="48" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hubei.png" group-title="卫视",湖北卫视[1920*1080]
 http://39.134.67.148/ottrrs.hl.chinamobile.com/hlj/yd/0/3221225627/.m3u8
 #EXTINF:-1 tvg-id="48" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hubei.png" group-title="卫视",湖北卫视[1920*1080]
