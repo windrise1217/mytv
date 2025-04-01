@@ -117,7 +117,7 @@ http://huaweicdn.hb.chinamobile.com/PLTV/000000001000PLTV/224/3221226626/1.m3u8#
 http://huaweicdn.hb.chinamobile.com/PLTV/000000001000PLTV/224/3221226628/1.m3u8#http://111.48.34.138/PLTV/88888888/224/3221230439/1.m3u8
 #EXTINF:-1 tvg-id="1785" tvg-name="湖北垄上频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HBLS.png" group-title="湖北",湖北垄上
 http://huaweicdn.hb.chinamobile.com/PLTV/000000001000PLTV/224/3221226631/1.m3u8#http://111.48.34.138/PLTV/88888888/224/3221230390/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",湖北经视
+#EXTINF:-1 tvg-id="" tvg-name="湖北经视频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI6.png" group-title="湖北",湖北经视
 http://huaweicdn.hb.chinamobile.com/PLTV/000000001000PLTV/224/3221226639/1.m3u8#http://111.48.34.138/PLTV/88888888/224/3221229804/1.m3u8#http://111.48.34.138/PLTV/88888888/224/3221230388/1.m3u8
 #EXTINF:-1 tvg-id="1779" tvg-name="湖北影视频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI3.png" group-title="湖北",湖北影视
 http://huaweicdn.hb.chinamobile.com/PLTV/000000001000PLTV/224/3221226649/1.m3u8#http://111.48.34.138/PLTV/88888888/224/3221230404/1.m3u8
@@ -223,7 +223,7 @@ http://huaweicdn.hb.chinamobile.com/PLTV/000000001000PLTV/224/3221226799/1.m3u8#
 http://huaweicdn.hb.chinamobile.com/PLTV/000000001000PLTV/224/3221226723/1.m3u8#http://111.48.34.138/PLTV/88888888/224/3221230537/1.m3u8
 #EXTINF:-1 tvg-id="6573" tvg-name="汽摩" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE22.jpg" group-title="地方",汽摩
 http://huaweicdn.hb.chinamobile.com/PLTV/000000001000PLTV/224/3221226733/1.m3u8#http://111.48.34.138/PLTV/88888888/224/3221230490/1.m3u8
-#EXTINF:-1 tvg-id="6558" tvg-name="第一剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVdiyijuchang.png" group-title="地方",第一剧场
+#EXTINF:-1 tvg-id="6558" tvg-name="第一剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVdiyijuchang.png" group-title="",第一剧场
 http://huaweicdn.hb.chinamobile.com/PLTV/000000001000PLTV/224/3221226736/1.m3u8#http://111.48.34.138/PLTV/88888888/224/3221230488/1.m3u8
 #EXTINF:-1 tvg-id="6555" tvg-name="梨园" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE20.jpg" group-title="地方",梨园频道
 http://huaweicdn.hb.chinamobile.com/PLTV/000000001000PLTV/224/3221226727/1.m3u8#http://111.48.34.138/PLTV/88888888/224/3221230496/1.m3u8
