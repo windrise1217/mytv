@@ -257,8 +257,6 @@ rtsp://111.48.34.138:1554/170000004112/99180001000000060000000000000369
 http://59.175.226.142:280/gb28181/xwzh.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",鄂州公共
 http://ezhou-live21.cjyun.org/10098/s10098-EZ2T.m3u8?auth_key=1767196799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-ab320ba90f39f94baba04e30ff07c52e#rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000461
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",鄂州新闻综合
-rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000460
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",黄石新闻综合
 http://huangshifb-live21.cjyun.org/10200/s10200-huangshitv01.m3u8?auth_key=1767196799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-e22af05072c6fa8bc1fc35e042e97467
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",黄石阳新新闻
@@ -271,14 +269,10 @@ http://xianning-live21.cjyun.org/10140/s10140-XNTV-1.m3u8?auth_key=1767196799-ce
 http://xianning-live21.cjyun.org/10140/s10140-XNGG.m3u8?auth_key=1767196799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-8cb875770938fdeb7179752f74e13062#rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000381
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",咸宁赤壁一套
 http://chibi-live21.cjyun.org/10138/s10138-CBTV1.m3u8?auth_key=1767196799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-a9f4eb22b55c750628c090d53a445bbc
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",咸宁通山综合
-rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000540
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",孝感新闻综合
 http://xiaogan-live21.cjyun.org/10139/s10139-shpd.m3u8?auth_key=1767196799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-2286294457518d52f02d91906380d72a#rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000551
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",孝感生活
 http://xiaogan-live21.cjyun.org/10139/s10139-xg.m3u8?auth_key=1767196799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-1d24a98d45449c0f85cda4bddc5d72a6
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",孝感公共
-rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000552
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",孝感孝昌综合
 http://xiaochang-live21.cjyun.org/10128/s10128-xcxw.m3u8?auth_key=1767196799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-948b2cf2777e352d9f83660c9b79aa3f
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",孝感应城综合
@@ -293,8 +287,6 @@ http://songzi-live21.cjyun.org/10194/s10194-songzi-tv1.m3u8?auth_key=1767196799-
 http://stream.jmtv.com.cn/xwzh/sd/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",荆门教育频道
 http://stream.jmtv.com.cn/ggsh/sd/live.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",襄阳经济生活
-rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000451
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",襄阳谷城综合
 http://gucheng-live21.cjyun.org/10116/s10116-GCTV1.m3u8?auth_key=1767196799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-b8eee5fa844d684da58e16386fdc88c8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",宜昌长阳综合
@@ -305,10 +297,6 @@ http://dangyang-live21.cjyun.org/10118/s10118-DYZH.m3u8?auth_key=1767196799-ced1
 http://xingshan-live21.cjyun.org/10108/s10108-xingshanTV01.m3u8?auth_key=1767196799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-dafdeaf8f8034a40ebc17a1f8f3a603f
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",宜昌枝江综合
 http://zhijiang-live21.cjyun.org/10120/s10120-zjtv.m3u8?auth_key=1767196799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-16e87303959711040a8b485858a82a78
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",宜昌综合
-rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000438
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",宜昌旅游生活
-rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000440
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",恩施鹤峰综合
 http://hefeng-live21.cjyun.org/10100/s10100-hftv1.m3u8?auth_key=1767196799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-b42f6cb29eb3b901079113901761aa96
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="湖北",恩施新闻综合
