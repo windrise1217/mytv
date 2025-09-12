@@ -23,7 +23,7 @@ In the meantime, use the following instructions to sideload the extension:
 
 0. Get the [latest release for Chromium](https://github.com/SapphoSys/tailname/releases/latest/download/tailname-chrome.zip).
 1. Extract the ZIP archive using an archival program of your choice.
-2. Navigate to the Extensions page using [chrome://extensions](chrome://extensions).
+2. Navigate to the Extensions page using `chrome://extensions`.
 3. Click the "Load unpacked" button.
 4. Select the extracted folder of the extension.
 5. Done!
@@ -34,7 +34,7 @@ In the meantime, use the following instructions to sideload the extension:
 In the meantime, use the following instructions to sideload the extension:
 
 0. Get the [latest release for Firefox](https://github.com/SapphoSys/tailname/releases/latest/download/tailname-firefox.zip).
-1. Navigate to the Extensions page using [about:addons](about:addons).
+1. Navigate to the Extensions page using `about:addons`.
 2. Click on the settings icon, and select "Install Add-ons From File...".
 3. Select the ZIP archive of the extension.
 4. Done!
