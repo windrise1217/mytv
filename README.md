@@ -7,12 +7,12 @@
 [![License](https://img.shields.io/github/license/SapphoSys/tailname?labelColor=black&color=#3f5db3)](https://github.com/SapphoSys/tailname/blob/master/LICENSE)
 
 A browser extension that finds custom tailnet name offers for your Tailscale account using keywords.
-</div>
 
 <div style="display: flex; justify-content: center; gap: 1em;">
   <img src=".github/assets/1_home.png" alt="Home page" width="250" />
   <img src=".github/assets/2_words.png" alt="Words screen" width="250" />
   <img src=".github/assets/3_offers.png" alt="Offers screen" width="250" />
+</div>
 </div>
 
 ## How to install
