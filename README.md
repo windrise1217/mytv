@@ -9,9 +9,9 @@
 A browser extension that finds custom tailnet name offers for your Tailscale account using keywords.
 
 <div style="display: flex; justify-content: center; gap: 1em;">
-  <img src=".github/assets/1_home.png" alt="Home page" width="250" />
-  <img src=".github/assets/2_words.png" alt="Words screen" width="250" />
-  <img src=".github/assets/3_offers.png" alt="Offers screen" width="250" />
+  <img src=".github/assets/1_home.png" alt="Home page" width="200" />
+  <img src=".github/assets/2_words.png" alt="Words screen" width="200" />
+  <img src=".github/assets/3_offers.png" alt="Offers screen" width="200" />
 </div>
 </div>
 
