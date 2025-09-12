@@ -1,0 +1,48 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.2.2/schema.json",
+	"vcs": {
+		"enabled": false,
+		"clientKind": "git",
+		"useIgnoreFile": false
+	},
+	"files": {
+		"includes": [
+			"entrypoints/**/*",
+			"handlers/**/*",
+			"helpers/**/*",
+			"types/**/*",
+			"biome.json",
+			"config.ts",
+			"tailwind.config.ts",
+			"tsconfig.json",
+			"wxt.config.ts"
+		],
+		"ignoreUnknown": false
+	},
+	"formatter": {
+		"enabled": true,
+		"indentStyle": "tab"
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"suspicious": {
+				"noExplicitAny": "error"
+			}
+		}
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "single"
+		}
+	},
+	"assist": {
+		"enabled": true,
+		"actions": {
+			"source": {
+				"organizeImports": "on"
+			}
+		}
+	}
+}
