@@ -2,6 +2,8 @@ name: Release
 
 on:
   push:
+    tags:
+      - 'v*'
 
 jobs:
   release:
@@ -30,18 +32,9 @@ jobs:
           pnpm zip:firefox
           mv .output/*-firefox.zip .output/tailname-firefox.zip
 
-      - name: Create and push tag
-        id: create_and_push_tag
-        run: |
-          TAG=auto-release-$(git rev-parse --short HEAD)
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git tag $TAG
-          git push origin $TAG
-
       - name: Create GitHub Release and upload ZIPs
         uses: ncipollo/release-action@v1
         with:
           artifacts: ".output/tailname-chrome.zip,.output/tailname-firefox.zip"
           generateReleaseNotes: true
-          tag: ${{ steps.create_and_push_tag.outputs.TAG }}
+          tag: ${{ github.ref }}
