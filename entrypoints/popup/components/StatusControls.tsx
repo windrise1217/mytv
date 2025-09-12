@@ -168,7 +168,16 @@ const StatusControls: FC<StatusControlsProps> = ({
 								: timer !== null
 									? `${timer} second${timer === 1 ? '' : 's'}`
 									: `a few second${timer === 1 ? '' : 's'}`}
-							.
+							.{' '}
+							<button
+								type="button"
+								className="text-subtext font-semibold hover:opacity-80 hover:underline text-xs"
+								onClick={settings.open}
+								aria-label="Configure interval in settings"
+								tabIndex={0}
+							>
+								[Configure the interval]
+							</button>
 						</p>
 					</div>
 				</div>
