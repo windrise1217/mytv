@@ -33,29 +33,15 @@ In the meantime, use the following instructions to sideload the extension:
 5. Done!
 
 ### Gecko-based browsers (Firefox, Zen Browser, etc)
-*The extension submission is currently awaiting a review on the Mozilla Add-on Developer Hub.*
 
-In the meantime, use the following instructions to temporarily sideload the extension:
+0. Click on [the link here](https://cdn.sapphic.moe/2025/09/tailname-1.0.xpi) to download the extension.
+1. It will prompt you to add the extension. Done!
 
-0. Get the [latest release for Firefox](https://github.com/SapphoSys/tailname/releases/latest/download/tailname-firefox.zip).
-1. Navigate to the Debugging page using `about:debugging#/runtime/this-firefox`.
-2. Click on "Load Temporary Add-on..."
-3. Select the ZIP archive of the extension.
-4. Done!
-
-Unfortunately, this means you'll have to do steps 1-3 everytime you restart the browser.
-
-If you'd like to permanently sideload the extension while the extension is still in the verification phase, you can do the following:
-
-1. Install [Firefox Developer Edition](https://www.firefox.com/en-US/channel/desktop/developer/)
-2. Go to `about:config`
-3. Search for `xpinstall.signatures.required` and make sure the value is `false`
-4. Get the [latest extension release for Firefox](https://github.com/SapphoSys/tailname/releases/latest/download/tailname-firefox.zip).
-5. Navigate to the Extensions page using `about:addons`.
-6. Click on "Install Add-ons From File..."
-7. Select the ZIP archive of the extension
-8. Click "OK" on the warning
-9. Done!
+If the prompt somehow did not appear, you can manually add the extension:
+- Navigate to the Addons page using `about:addons`
+- Click on the settings icon and select "Install Add-on From File..."
+- Select the downloaded XPI file
+- Done!
 
 ## License
 
