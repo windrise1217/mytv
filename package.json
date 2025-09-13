@@ -3,7 +3,7 @@
   "description": "Search for custom tailnet name offers with keywords.",
   "author": "Chloe Arciniega <chloe@sapphic.moe>",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "license": "zlib",
   "scripts": {
