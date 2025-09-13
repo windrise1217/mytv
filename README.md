@@ -48,11 +48,12 @@ Unfortunately, this means you'll have to do steps 1-3 everytime you restart the 
 If you'd like to permanently sideload the extension while the extension is still in the verification phase, you can do the following:
 
 1. Install [Firefox Developer Edition](https://www.firefox.com/en-US/channel/desktop/developer/)
-2. Navigate to the Extensions page using `about:addons`.
-3. Click on "Install Add-ons From File..."
-4. Select the ZIP archive of the extension
-5. Click "OK" on the warning
-6. Done!
+2. Get the [latest extension release for Firefox](https://github.com/SapphoSys/tailname/releases/latest/download/tailname-firefox.zip).
+3. Navigate to the Extensions page using `about:addons`.
+4. Click on "Install Add-ons From File..."
+5. Select the ZIP archive of the extension
+6. Click "OK" on the warning
+7. Done!
 
 ## License
 
