@@ -42,7 +42,17 @@ In the meantime, use the following instructions to temporarily sideload the exte
 2. Click on "Load Temporary Add-on..."
 3. Select the ZIP archive of the extension.
 4. Done!
+
 Unfortunately, this means you'll have to do steps 1-3 everytime you restart the browser.
+
+If you'd like to permanently sideload the extension while the extension is still in the verification phase, you can do the following:
+
+1. Install [Firefox Developer Edition](https://www.firefox.com/en-US/channel/desktop/developer/)
+2. Navigate to the Extensions page using `about:addons`.
+3. Click on "Install Add-ons From File..."
+4. Select the ZIP archive of the extension
+5. Click "OK" on the warning
+6. Done!
 
 ## License
 
