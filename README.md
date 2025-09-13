@@ -34,13 +34,14 @@ In the meantime, use the following instructions to sideload the extension:
 ### Gecko-based browsers (Firefox, Zen Browser, etc)
 *The extension submission is currently awaiting a review on the Mozilla Add-on Developer Hub.*
 
-In the meantime, use the following instructions to sideload the extension:
+In the meantime, use the following instructions to temporarily sideload the extension:
 
 0. Get the [latest release for Firefox](https://github.com/SapphoSys/tailname/releases/latest/download/tailname-firefox.zip).
-1. Navigate to the Extensions page using `about:addons`.
-2. Click on the settings icon, and select "Install Add-ons From File...".
+1. Navigate to the Debugging page using `about:debugging#/runtime/this-firefox`.
+2. Click on "Load Temporary Add-on..."
 3. Select the ZIP archive of the extension.
 4. Done!
+Unfortunately, this means you'll have to do steps 1-3 everytime you restart the browser.
 
 ## License
 
