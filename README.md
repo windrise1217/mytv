@@ -15,6 +15,9 @@ A browser extension that finds custom tailnet name offers for your Tailscale acc
 </div>
 </div>
 
+## Update
+If you're encountering an "unknown eligibility" error, please download the [new release here!](https://github.com/SapphoSys/tailname/releases/tag/v1.0.2)
+
 ## How to install
 ### Chromium-based browsers (Google Chrome, Microsoft Edge, etc)
 *We plan on submitting this extension to the Chrome Web Store soon.*
