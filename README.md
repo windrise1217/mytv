@@ -16,7 +16,8 @@ A browser extension that finds custom tailnet name offers for your Tailscale acc
 </div>
 
 ## Update
-If you're encountering an "unknown eligibility" error, please download the [new release here!](https://github.com/SapphoSys/tailname/releases/tag/v1.0.2)
+1. If you're encountering an "unknown eligibility" error, please download the [new release here!](https://github.com/SapphoSys/tailname/releases/tag/v1.0.2)
+2. If you're encountering the "This add-on could not be installed because it has not been verified" error on Firefox, I've updated the Firefox guide below.
 
 ## How to install
 ### Chromium-based browsers (Google Chrome, Microsoft Edge, etc)
