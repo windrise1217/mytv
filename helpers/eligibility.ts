@@ -3,64 +3,41 @@ import { log } from '$helpers/logging';
 import { fetchTailscaleOffers, getTailcontrolCookie } from '$helpers/offers';
 import type { Eligibility, EligibilityApiResponse } from '$types/eligibility';
 
-const eligibilityMap: Record<string, Eligibility> = {
-	apiError: {
-		eligible: false,
-		reason: 'API error occurred.',
-		id: 'api-error',
-		error: 'API error',
-	},
-	eligible: {
-		eligible: true,
-		reason: 'Eligible for new offers!',
-		id: 'eligible',
-		offerType: 'reoffer',
-	},
-	'forbidden - not admin': {
-		eligible: false,
-		reason:
-			'User does not have the Admin role in Tailscale, and thus has insufficient privileges.',
-		id: 'not-admin',
-		error: 'forbidden - not admin',
-	},
-	'forbidden - not logged in': {
-		eligible: false,
-		reason: 'User is not logged in to Tailscale.',
-		id: 'not-logged-in',
-		error: 'forbidden - not logged in',
-	},
-	locked: {
-		eligible: false,
-		reason: 'User already used their tailnet name for an HTTPS certificate.',
-		id: 'custom-tailnet',
-		offerType: 'locked',
-	},
-	unknown: {
-		eligible: false,
-		reason: 'Unknown eligibility state.',
-		id: 'unknown',
-	},
-};
-
 export const parseEligibilityResponse = (
 	body: EligibilityApiResponse,
 ): Eligibility => {
 	if (body.error) {
+		if (body.error === 'forbidden - not admin') {
+			return {
+				eligible: false,
+				reason:
+					'User does not have the Admin role in Tailscale, and thus has insufficient privileges.',
+				id: 'not-admin',
+				error: body.error,
+			};
+		}
+
 		return {
-			...eligibilityMap.apiError,
+			eligible: false,
 			reason: `API error: ${body.error}`,
+			id: 'api-error',
 			error: body.error,
 		};
 	}
 
-	if (body.error && eligibilityMap[body.error])
-		return eligibilityMap[body.error];
-
-	if (body.data?.offerType === 'locked') return eligibilityMap.locked;
-	if (body.data?.offerType === 'reoffer') return eligibilityMap.eligible;
+	if (body.data && body.data.offerType === 'locked') {
+		return {
+			eligible: false,
+			reason: 'User already used their tailnet name for an HTTPS certificate.',
+			id: 'custom-tailnet',
+			offerType: body.data.offerType,
+		};
+	}
 
 	return {
-		...eligibilityMap.unknown,
+		eligible: true,
+		reason: 'Eligible!',
+		id: 'eligible',
 		offerType: body.data?.offerType,
 	};
 };
@@ -76,7 +53,11 @@ export const checkEligibility = async (): Promise<Eligibility> => {
 		'INFO',
 		'Eligibility',
 	);
-	let eligibility: Eligibility = eligibilityMap.unknown;
+	let eligibility: Eligibility = {
+		eligible: false,
+		reason: 'Unknown',
+		id: 'unknown',
+	};
 
 	const cacheDurationMs = eligibilityCacheInterval * 1000;
 	const cached = await browser.storage.local.get('eligibility');
@@ -91,7 +72,10 @@ export const checkEligibility = async (): Promise<Eligibility> => {
 	try {
 		const cookie = await getTailcontrolCookie();
 		if (!cookie) {
-			eligibility = eligibilityMap['forbidden - not logged in'];
+			eligibility.reason =
+				'Tailcontrol cookie not found. User must log in to Tailscale.';
+			eligibility.eligible = false;
+			eligibility.id = 'not-logged-in';
 			handleEligibilityResult(eligibility);
 			return eligibility;
 		}
@@ -99,20 +83,17 @@ export const checkEligibility = async (): Promise<Eligibility> => {
 		const cookieValue = cookie.value;
 		const response = await fetchTailscaleOffers(cookieValue);
 		const body = await response.json();
-		console.log(body);
 		eligibility = parseEligibilityResponse(body);
 		handleEligibilityResult(eligibility);
 
 		return eligibility;
-	} catch (e) {
+	} catch (e: unknown) {
 		const errorMsg = e instanceof Error ? e.message : 'Unknown error';
 
-		eligibility = {
-			...eligibilityMap.unknown,
-			reason: errorMsg,
-			error: errorMsg,
-		};
-
+		eligibility.reason = errorMsg;
+		eligibility.id = 'unknown-error';
+		eligibility.eligible = false;
+		eligibility.error = errorMsg;
 		handleEligibilityResult(eligibility);
 
 		return eligibility;
