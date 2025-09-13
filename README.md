@@ -48,12 +48,14 @@ Unfortunately, this means you'll have to do steps 1-3 everytime you restart the 
 If you'd like to permanently sideload the extension while the extension is still in the verification phase, you can do the following:
 
 1. Install [Firefox Developer Edition](https://www.firefox.com/en-US/channel/desktop/developer/)
-2. Get the [latest extension release for Firefox](https://github.com/SapphoSys/tailname/releases/latest/download/tailname-firefox.zip).
-3. Navigate to the Extensions page using `about:addons`.
-4. Click on "Install Add-ons From File..."
-5. Select the ZIP archive of the extension
-6. Click "OK" on the warning
-7. Done!
+2. Go to `about:config`
+3. Search for `xpinstall.signatures.required` and make sure the value is `false`
+4. Get the [latest extension release for Firefox](https://github.com/SapphoSys/tailname/releases/latest/download/tailname-firefox.zip).
+5. Navigate to the Extensions page using `about:addons`.
+6. Click on "Install Add-ons From File..."
+7. Select the ZIP archive of the extension
+8. Click "OK" on the warning
+9. Done!
 
 ## License
 
