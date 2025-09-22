@@ -349,3 +349,5 @@ http://192.168.1.99:7088/udp/239.69.1.240:11082
 http://192.168.1.99:7088/udp/239.69.1.246:11118
 #EXTINF:-1 tvg-name="宜昌兴山综合HD" tvg-logo="https://live.fanmingming.cn/tv/宜昌兴山综合HD.png",宜昌兴山综合HD
 http://192.168.1.99:7088/udp/239.69.1.250:11142
+#EXTINF:-1 tvg-name="宜都综合" tvg-logo="https://epg.112114.xyz/logo/宜都综合.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",宜都综合
+https://yidushi-live21.cjyun.org/10092/s10092-yidushitv01.m3u8?auth_key=1767196799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-db934a5ffe406f70c39553754180d392
