@@ -448,8 +448,6 @@ http://1033946631.cloudvdn.com/a.m3u8?domain=live-hdl.macaulotustv.com&player=1&
 https://p2hs.vzan.com/slowlive/821481626725612419/live.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="环球电视" tvg-logo="https://epg.112114.xyz/logo/环球电视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",环球电视
 http://utv1.hqtvzb.com:9999/hls/world.m3u8
-#EXTINF:-1 group-title="港澳台" tvg-name="唐人卫视频道" tvg-logo="https://epg.112114.xyz/logo/唐人卫视频道.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",唐人卫视频道
-https://ntd02.akamaized.net/HD-NY/tracks-v3a1/mono.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="番薯台" tvg-logo="https://epg.112114.xyz/logo/番薯台.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",番薯台
 http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="凤凰电影" tvg-logo="https://epg.112114.xyz/logo/凤凰电影.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",凤凰电影
