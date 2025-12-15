@@ -432,9 +432,9 @@ https://p2hs.vzan.com/slowlive/481008854192202056/live.m3u8
 #EXTINF:-1 group-title="地方频道" tvg-name="兴山综合" tvg-logo="https://epg.112114.xyz/logo/兴山综合.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",兴山综合
 http://xingshan-live21.cjyun.org/10108/s10108-xingshanTV01.m3u8?auth_key=1767196799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-dafdeaf8f8034a40ebc17a1f8f3a603f
 #EXTINF:-1 group-title="港澳台" tvg-name="凤凰香港" tvg-logo="https://epg.112114.xyz/logo/凤凰香港.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",凤凰香港
-http://xg.52sw.top/play/fh.php?id=fhxg#http://tv.groupshare.com.cn/fhtv?id=hk&prefix=86&phone=18972346553&pwd=Sm623008
+http://tv.groupshare.com.cn/fhtv?id=hk&prefix=86&phone=18972346553&pwd=Sm623008
 #EXTINF:-1 group-title="港澳台" tvg-name="凤凰中文" tvg-logo="https://epg.112114.xyz/logo/凤凰中文.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",凤凰中文
-http://xg.52sw.top/play/fh.php?id=fhzw#http://tv.groupshare.com.cn/fhtv?id=cn&prefix=86&phone=18972346553&pwd=Sm623008
+http://http://203.205.191.53/qctv.fengshows.cn/live/0701pcc72.flv
 #EXTINF:-1 group-title="港澳台" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",凤凰资讯
 http://111.48.34.138/000000001000PLTV/88888888/224/3221230647/1.m3u8#http://xg.52sw.top/play/fh.php?id=fhzx
 http://tv.groupshare.com.cn/fhtv?id=info&prefix=86&phone=18972346553&pwd=Sm623008#http://l8221706.cloudns.org/fhx.php?id=fhzx
@@ -458,3 +458,5 @@ http://iot-mqqt.111yao.cn:8080/live/diyp_fhdy.m3u8
 http://iot-mqqt.111yao.cn:8080/live/diyp_xingkong.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="星空音乐" tvg-logo="https://epg.112114.xyz/logo/星空音乐.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",星空音乐
 http://iot-mqqt.111yao.cn:8080/live/diyp_channelv.m3u8
+CHC华诚影视,http://120.76.248.139/live/bfgd/4200000289.m3u8
+重温经典,http://m.061899.xyz/mg/cwjd#http://111.8.242.104:4085/tsfile/live/1054_1.m3u8?key=txiptv&playlive=1&authid=0
