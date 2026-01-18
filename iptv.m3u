@@ -1,5 +1,4 @@
 #EXTM3U x-tvg-url="https://ghfast.top/https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz"
-
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV1.png" group-title="央视频道",CCTV1
 http://112.27.235.94:8000/hls/1/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV2.png" group-title="央视频道",CCTV2
@@ -84,3 +83,69 @@ http://112.27.235.94:8000/hls/48/index.m3u8
 http://112.27.235.94:8000/hls/49/index.m3u8
 #EXTINF:-1 tvg-name="重温经典" tvg-logo="https://live.fanmingming.cn/tv/重温经典.png" group-title="卫视频道",重温经典
 http://112.27.235.94:8000/hls/50/index.m3u8
+#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1 綜合" group-title="中国",CCTV-1 綜合
+http://23.128.116.71:5589/live.php?id=cctv1&h=23.128.116.71&p=22364&token=1768706739.67f2e99296b34dd65633bdc1f3daf321eda49240838dfa285b702dbd49c044a4
+#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2 財經" group-title="中国",CCTV-2 財經
+http://23.128.116.71:5589/live.php?id=cctv2&h=23.128.116.71&p=22364&token=1768706739.8bb6be3e74768194a2919d524a75315549fbd41f9fd1640afbf33080b6a43d5d
+#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3 綜藝" group-title="中国",CCTV-3 綜藝
+http://23.128.116.71:5589/live.php?id=cctv3&h=23.128.116.71&p=22364&token=1768706739.9a5a202fdfdc4a248eaebc5a6af66ed56f918c9083b92772bdfa9328ced83f40
+#EXTINF:-1 tvg-id="Cctv4" tvg-name="CCTV-4 中文國際" group-title="中国",CCTV-4 中文國際
+http://23.128.116.71:5589/live.php?id=Cctv4&h=23.128.116.71&p=22364&token=1768706739.8ee3a7e1a02b9f4891976816b68eba971a1bccb3c25449ee0501ca0ed4e8f492
+#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4 中文國際 (備:1)" group-title="中国",CCTV-4 中文國際 (備:1)
+http://23.128.116.71:5589/live.php?id=cctv4&h=23.128.116.71&p=22364&token=1768706739.a3c49d3b1eca3c5293e9df88f7db5f3c5a4650938236ce81cc3e077218cb9225
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6 電影" group-title="中国",CCTV-6 電影
+http://23.128.116.71:5589/live.php?id=cctv6&h=23.128.116.71&p=22364&token=1768706739.a6ecbb36aff43b6f43b454e99f901771919ea10f98878cf5541f483eceaf6754
+#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7 軍事農業" group-title="中国",CCTV-7 軍事農業
+http://23.128.116.71:5589/live.php?id=cctv7&h=23.128.116.71&p=22364&token=1768706739.a4b6cfd50a5dabe41252133cc5e21196551890ddfbb3e3062da4b09742f5ea2d
+#EXTINF:-1 tvg-id="cctv8hd" tvg-name="CCTV-8 電視劇" group-title="中国",CCTV-8 電視劇
+http://23.128.116.71:5589/live.php?id=cctv8hd&h=23.128.116.71&p=22364&token=1768706739.cd5a45dbdcad95820944dfc3a95df3d21a7e97c2cfaa9ca2fbf791c794025324
+#EXTINF:-1 tvg-id="cctv9hd" tvg-name="CCTV-9 紀錄" group-title="中国",CCTV-9 紀錄
+http://23.128.116.71:5589/live.php?id=cctv9hd&h=23.128.116.71&p=22364&token=1768706739.a9d93e7b7005f9e842d13e922b932c1b6256612527eceab83c2ac97bbd56da00
+#EXTINF:-1 tvg-id="cctv10hd" tvg-name="CCTV-10 科教" group-title="中国",CCTV-10 科教
+http://23.128.116.71:5589/live.php?id=cctv10hd&h=23.128.116.71&p=22364&token=1768706739.34e94a4c2fbf1f024a81932e87b2fa125a15697de5e2f1f889b5381d7eafa688
+#EXTINF:-1 tvg-id="cctv11" tvg-name="CCTV-11 戲曲" group-title="中国",CCTV-11 戲曲
+http://23.128.116.71:5589/live.php?id=cctv11&h=23.128.116.71&p=22364&token=1768706739.b5de491c646b090cb414e23e3d1ad6c0ff4ef429f159ef3bf4606b6a6c65593b
+#EXTINF:-1 tvg-id="cctv12" tvg-name="CCTV-12 社會與法" group-title="中国",CCTV-12 社會與法
+http://23.128.116.71:5589/live.php?id=cctv12&h=23.128.116.71&p=22364&token=1768706739.a8598480e2ddff7daf64830b41129ec556fabd660e96437fc325a08c77e6b64b
+#EXTINF:-1 tvg-id="cctv14" tvg-name="CCTV-14 少兒" group-title="中国",CCTV-14 少兒
+http://23.128.116.71:5589/live.php?id=cctv14&h=23.128.116.71&p=22364&token=1768706739.91cc73482e75b2bd0583d3ea1cabf49b42fe57d372aea6c3fb7f531ee0c98398
+#EXTINF:-1 tvg-id="cctv15" tvg-name="CCTV-15 音樂" group-title="中国",CCTV-15 音樂
+http://23.128.116.71:5589/live.php?id=cctv15&h=23.128.116.71&p=22364&token=1768706739.ceae12b5dd4df649f3d2827a86fc75cdf0e6328af26e6fb0b91e0f47bbefc1d1
+#EXTINF:-1 tvg-id="hunan_twn" tvg-name="湖南卫视" group-title="中国",湖南卫视
+http://23.128.116.71:5589/live.php?id=hunan_twn&h=23.128.116.71&p=22364&token=1768706739.09ed032d48f1155736c1352fcafd84ce9ae23ee75a470cb2bb67b567c0b09019
+#EXTINF:-1 tvg-id="zhejiang_twn" tvg-name="浙江卫视" group-title="中国",浙江卫视
+http://23.128.116.71:5589/live.php?id=zhejiang_twn&h=23.128.116.71&p=22364&token=1768706739.e61fe98a24f71019cbf901834d92507556c6843231e9d324ba85d8c9111e4146
+#EXTINF:-1 tvg-id="jiangsu_twn" tvg-name="江苏卫视" group-title="中国",江苏卫视
+http://23.128.116.71:5589/live.php?id=jiangsu_twn&h=23.128.116.71&p=22364&token=1768706739.a7d40ceaf95eeedb3e1c8b381f269629211f6ee76ccf796be546d1c5731235c3
+#EXTINF:-1 tvg-id="cctv13" tvg-name="CCTV-13 新聞與頻道" group-title="中国",CCTV-13 新聞與頻道
+http://23.128.116.71:5589/live.php?id=cctv13&h=23.128.116.71&p=22364&token=1768706739.2920aa51f7fc6c32f87d1dc4d4192059ed02d811e361fc779fb5c6447f236eaf
+#EXTINF:-1 tvg-id="shenzhen" tvg-name="深圳卫视" group-title="中国",深圳卫视
+http://23.128.116.71:5589/live.php?id=shenzhen&h=23.128.116.71&p=22364&token=1768706739.7b4944d6b313a418279d143d4bb5d61f243e91599d444a6e63854235b7cb037a
+#EXTINF:-1 tvg-id="fujian" tvg-name="福建东南卫视" group-title="中国",福建东南卫视
+http://23.128.116.71:5589/live.php?id=fujian&h=23.128.116.71&p=22364&token=1768706739.f184ca6679a8e721d375988a664c1d562eb75b385a65f3e4279727ace88e2598
+#EXTINF:-1 tvg-id="nanfang_twn" tvg-name="广东南方卫视" group-title="中国",广东南方卫视
+http://23.128.116.71:5589/live.php?id=nanfang_twn&h=23.128.116.71&p=22364&token=1768706739.a587dbfd3bbe1620e420a0c1a6079dab3f958543e58dc65cbe9e0aa37a082a3a
+#EXTINF:-1 tvg-id="guangdongweishi_twn" tvg-name="广东卫视" group-title="中国",广东卫视
+http://23.128.116.71:5589/live.php?id=guangdongweishi_twn&h=23.128.116.71&p=22364&token=1768706739.8e4193c59d36b9ff867fb3a45064806f20d16383500f1cdf2c2615060a5d6906
+#EXTINF:-1 tvg-id="beijing" tvg-name="北京卫视" group-title="中国",北京卫视
+http://23.128.116.71:5589/live.php?id=beijing&h=23.128.116.71&p=22364&token=1768706739.0bc3731aba7c902e68f2060125755f1e04ae2d6fd1848a79fe827e4bfa42626b
+#EXTINF:-1 tvg-id="zhujiang" tvg-name="珠江台" group-title="中国",珠江台
+http://23.128.116.71:5589/live.php?id=zhujiang&h=23.128.116.71&p=22364&token=1768706739.ec813303b6cb5c2c10d3b2f428fdcaf311f85680860413f3935cfb903648dba7
+#EXTINF:-1 tvg-id="guangxi" tvg-name="广西卫视" group-title="中国",广西卫视
+http://23.128.116.71:5589/live.php?id=guangxi&h=23.128.116.71&p=22364&token=1768706739.b7700c0ce9ac40ef8a8e72a139519112f8a9ed35d3466d84a46a715f742e266c
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="中国",CGTN
+http://23.128.116.71:5589/live.php?id=CGTN&h=23.128.116.71&p=22364&token=1768706739.675c8be012b4238fd95d22ad6fd87af6054c4e175edddcaf5c733cabdc2f8782
+#EXTINF:-1 tvg-id="hubei" tvg-name="湖北卫视" group-title="中国",湖北卫视
+http://23.128.116.71:5589/live.php?id=hubei&h=23.128.116.71&p=22364&token=1768706739.733f535499b2c0393dd31c5db710587271b4c41971107e3a09a88944e2b08125
+#EXTINF:-1 tvg-id="sichuan_twn" tvg-name="四川卫视" group-title="中国",四川卫视
+http://23.128.116.71:5589/live.php?id=sichuan_twn&h=23.128.116.71&p=22364&token=1768706739.dc8ba7c0d2a33589f1a46688aeb29e82b500bcb07bdf51fe62776367acf55e4a
+#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5 體育" group-title="中国",CCTV-5 體育
+http://23.128.116.71:5589/live.php?id=cctv5&h=23.128.116.71&p=22364&token=1768706739.18f79c5d22200b2d73a56322dd8e1e2693db92342ecb3573a3e1df2610421041
+#EXTINF:-1 tvg-id="cctv5plus" tvg-name="CCTV-5+ 體育" group-title="中国",CCTV-5+ 體育
+http://23.128.116.71:5589/live.php?id=cctv5plus&h=23.128.116.71&p=22364&token=1768706739.8c00749e0d35adb6f2f371609c79cd39f317df5f1d1717f8801e76696d6a2956
+#EXTINF:-1 tvg-id="dongfangweishi_twn" tvg-name="东方卫视" group-title="中国",东方卫视
+http://23.128.116.71:5589/live.php?id=dongfangweishi_twn&h=23.128.116.71&p=22364&token=1768706739.b2f4d603b31bf1f636e4abde6dc816c40490d793280ed1b49738e5a13cff6736
+#EXTINF:-1 tvg-id="phoenixtv_hd" tvg-name="凤凰卫视" group-title="中国",凤凰卫视
+http://23.128.116.71:5589/live.php?id=phoenixtv_hd&h=23.128.116.71&p=22364&token=1768706739.5d80875cd89b26dba6bfa0076d6d8b98c1f3aa407c0ee3735008cb0a9061307d
+#EXTINF:-1 tvg-id="phoenixinfo_hd" tvg-name="鳳凰資訊" group-title="中国",鳳凰資訊
+http://23.128.116.71:5589/live.php?id=phoenixinfo_hd&h=23.128.116.71&p=22364&token=1768706739.e5a071c1e3545daa324c6dc56f1e4c5d7093f34cd204178ce538052190cafdc2
